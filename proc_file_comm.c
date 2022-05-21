@@ -121,3 +121,4 @@ int proc_file_commands(char *file_path, int *exe_ret)
 
 	free(front);
 	return (ret);
+}

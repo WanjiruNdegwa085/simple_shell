@@ -183,3 +183,4 @@ void logical_ops(char *line, ssize_t *new_len)
 		else if (previous == '|' && next != ' ')
 			(*new_len)++;
 	}
+}

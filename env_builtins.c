@@ -130,3 +130,4 @@ int shellby_unsetenv(char **args, char __attribute__((__unused__)) **front)
 	environ[size - 1] = NULL;
 
 	return (0);
+}
